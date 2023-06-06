@@ -1,4 +1,4 @@
-# JavaScript Data Stuctures and Algorithm
+# JavaScript Data Stuctures and Algorithms
 
 ### Introduction
 This repository contains my notes on data structures, LeetCode problems, and their corresponding solutions. It serves as a resource for learning and practicing JavaScript algorithms and data structures.
@@ -6,10 +6,10 @@ This repository contains my notes on data structures, LeetCode problems, and the
 ### Data Structures
 1. Stack
 2. Quene
-3. *_Linked List_*
+3. ***Linked List***
 4. Set
 5. Map
-6. *_Tree_*
+6. ***Tree***
 7. Graph
 8. Heap
 
@@ -18,7 +18,7 @@ This repository contains my notes on data structures, LeetCode problems, and the
 * The sort and search of array
 
 ### Algorithm Design
-* *_Divide-and-Conquer Algorithm_*
-* *_Dynamic Programming_*
+* ***Divide-and-Conquer Algorithm***
+* ***Dynamic Programming***
 * Greedy Algorithm
 * Backtracking Algorithm
