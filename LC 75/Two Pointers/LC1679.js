@@ -4,15 +4,23 @@
  * @return {number}
  */
 var maxOperations = function (nums, k) {
-    let count = 0;
-    for (let i = 0; i < nums.length - 1; i++) {
-        for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === k) {
-                count++;
-                nums.splice(i, 1);
-                nums.splice(j, 1);
-                break;
-            }
+    nums.sort((a, b) => a - b);
+    let count = 0,
+        i = 0,
+        j = nums.length - 1;
+    while (i < j) {
+        if (k == nums[i] + nums[j]) {
+            count++;
+            j--;
+            i++;
+        } else if (k < nums[i] + nums[j]) {
+            j--;
+        } else {
+            i++;
         }
     }
+    return count;
 };
+
+// Time Complexity: O(n);
+// Space Complexity: O(1);
